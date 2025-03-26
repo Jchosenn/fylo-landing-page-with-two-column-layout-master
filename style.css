@@ -1,0 +1,340 @@
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+.page-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 30px 50px;
+}
+.header-logo{
+    width: 200px;
+}
+.header-logo img{
+    width: 100%;
+}
+header div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+header div a{
+    color:  hsl(238, 22%, 44%);
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+header div a:hover{
+    transform: scale(1.1);
+    text-decoration-line: underline;
+}
+.section-one{
+    display: flex;
+padding: 30px 50px 60px 50px;
+justify-content: space-between;
+/* align-items: center; */
+}
+.all-files-text{
+    max-width: 550px;
+display: flex;
+flex-direction: column;
+padding: 50px 0;
+}
+.all-files-text h1{
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color:  hsl(243, 87%, 12%);
+}
+.all-files-text div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.all-files-text input{
+    font-family: "Raleway", sans-serif;
+padding: 10px;
+width: 250px;
+border-radius: 4px;
+border: 1px solid  hsl(0, 0%, 75%);
+}
+.all-files-text input:focus{
+    outline: none;
+}
+.all-files-text a{
+    text-decoration: none;
+    padding: 12px 50px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: hsl(224, 93%, 58%);
+    transition: ease-in-out 0.3s;
+}
+.all-files-text a:hover{
+    opacity: 0.8;
+}
+.illustration-holder{
+    max-width:600px;
+}
+.illustration-holder img{
+    width: 100%;
+}
+.section-two{
+    margin-top: 40px;
+    display: flex;
+    padding: 40px 50px 90px 50px;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: round;
+    background-size: cover;
+    align-items: center;
+}
+.section-two h1{
+    font-size: 40px;
+    color:  hsl(243, 87%, 12%);
+}
+.p-text{
+    max-width: 530px;
+    color:  hsl(243, 87%, 12%);
+    font-weight: 500;
+}
+.fylo-works{
+    align-items: center;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    display: flex;
+    gap: 5px;
+    width: 169px;
+    padding-bottom: 5px;
+    transition: ease-in-out 0.2s;
+}
+
+.section-two a{
+    color: hsl(170, 45%, 33%);
+    font-weight: 400;
+text-decoration: none;
+}
+.fylo-works:hover{
+    opacity: 0.5;
+}
+.review{
+    margin-top: 40px;
+    padding: 15px 30px;
+    max-width: 340px;
+    color:  hsl(243, 87%, 12%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px gainsboro;
+}
+.review p{
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.testimonial{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.testimonial img{
+    width: 50px;
+    border-radius: 50%;
+}
+.testimonial h3{
+    margin: 0;
+}
+.testimonial p{
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.section-three{
+    background-color:  hsl(238, 22%, 40%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: hsl(0, 0%, 100%);
+}
+.early-access-text{
+    max-width: 450px;
+}
+.early-access-text h1{
+    font-size: 30px;
+}
+.access-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.access-details input{
+    padding: 10px;
+    width: 400px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
+border: 1px solid  hsl(0, 0%, 75%);
+}
+.access-details input:focus{
+    outline: none;
+}
+.access-details a{
+    width: 150px;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: hsl(224, 93%, 58%) ;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: ease-in-out 0.2s;
+}
+.access-details a:hover{
+    background-color: hsl(224, 93%, 78%) ;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 50px 50px 30px 50px;
+}
+.footer-logo{
+    filter: invert(0.5) brightness(2);
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 200px; */
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+  .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }   
+  .info a{
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+    color: hsl(0, 0%, 100%);
+  } 
+  .info a:hover{
+    color: hsl(224, 93%, 58%);
+  }     
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.socials i{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 8px;
+    transition: ease-in-out 0.2s;
+}
+
+@media screen and (min-width:1440px) {
+    .page-holder{
+        max-width: 1440px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .section-one{
+    padding: 30px 50px 60px 50px; }
+    .all-files-text{
+        max-width: 500px; }
+        .all-files-text a{
+            text-decoration: none;
+            padding: 12px 20px; 
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width:640px) {
+    header{
+        padding-right: 20px;
+        padding-left: 20px;
+        gap: 5px;
+    }
+    header div{
+        gap: 20px;
+    }
+    .header-logo{
+        width: 100px;
+    }
+
+    .section-one{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .all-files-text div{
+        flex-direction: column;
+    }
+    .all-files-text h1{
+        font-size: 29px;
+    line-height: 40px;}   
+    .all-files-text input{
+        width: 240px;
+    }
+    .all-files-text a{
+        padding: 12px 100px;
+    }
+    .section-two{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    /* padding: 40px 30px 90px 30px; */
+    margin-top: 10px;
+        background-image: url(images/bg-curve-mobile.svg);
+    }
+    .section-two h1{
+        margin-top: 80px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 650;
+    }
+    .p-text{
+        text-align: start;
+        color: hsl(238, 22%, 44%);
+    }
+    .fylo-works{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .review{
+        width: 250px;
+    }
+    .section-three{
+        flex-direction: column;
+        text-align: center;
+    background-color:  hsl(238, 22%, 56%);
+}
+.access-details input{
+    width: 250px;}
+    .access-details a{
+        width: 235px;
+    }
+    .early-access-text h1{
+        font-size: 25px;
+    }
+    footer{
+    padding: 80px 50px 50px 50px;
+}
+    .contact{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .socials{
+        align-self: center;
+        
+    }
+}
